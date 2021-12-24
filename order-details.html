@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet"/>
+    <link href="./css/main.css" rel="stylesheet"/>
+    <link href="./css/bootstrap.css" rel="stylesheet"/>
+    <link href="./css/bootstrap-utilities.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Document</title>
+</head>
+<body style="display: flex; flex-direction: column">
+<div class="header" style="position: unset">
+    <div class="top-header">
+        <a class="logo" href="main.html">
+            <span class="logo1">Ç</span>
+            <span class="logo2">Э</span>
+        </a>
+        <img src="./img.png" class="eclair">
+        <span class="city">Санкт Петербург</span>
+    </div>
+    <div class="bottom-header">
+        <span class="bottom-header-1">о нас</span>
+        <a href="menu.html" class="bottom-header-1">меню</a>
+        <span class="bottom-header-1">отзывы</span>
+        <span class="bottom-header-4">контакты</span>
+    </div>
+</div>
+<div class="main">
+    <div class="order">
+        <span class="order-title">
+            Оформление заказа
+        </span>
+        <div class="order-body">
+            <div class="order-form">
+                <form action="./main.html" method="post" id="order">
+                    <span class="order-form-title">Личные данные</span>
+                    <div class="order-form-body">
+                        <input type="name" class=" form-text order-form-input" placeholder="Имя" required>
+                        <input type="tel" class=" form-text order-form-input" placeholder="Телефон" required>
+                        <input type="email" class=" form-text order-form-input" placeholder="e-mail" required>
+                    </div>
+                    <span class="order-form-title">Адрес</span>
+                    <div class="order-form-body">
+                        <input type="text" class=" form-text order-form-input" placeholder="Улица" required>
+                        <input type="text" class=" form-text order-form-input" placeholder="Дом" required>
+                        <input type="text" class=" form-text order-form-input" placeholder="Парадная" >
+                        <input type="text" class=" form-text order-form-input" placeholder="Квартира" >
+                    </div>
+                    <span class="order-form-title">Способ оплаты</span>
+                    <div class="order-form-check">
+                        <input class="order-form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="order-form-check-label" for="flexRadioDefault1">
+                            Оплата при получении курьеру
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="order-info-outer">
+                <div class="order-info">
+                    <span class="order-info-title">Ваш заказ</span>
+                    <table class="order-info-table">
+                        <tr>
+                            <th>Черничный эклер</th>
+                            <th></th>
+                            <th>2</th>
+                        </tr>
+                        <tr>
+                            <th>Малиновый эклер</th>
+                            <th></th>
+                            <th>1</th>
+                        </tr>
+                    </table>
+                    <span class="order-info-title">Итого:</span>
+                    <span class="order-info-total">357 руб.</span>
+                </div>
+               </div>
+        </div>
+
+        <input type="submit" class="order-button" form="order" value="Оформить заказ" style="padding-top: unset" >
+    </div>
+    <div class="bottom" style="display: flex; flex-direction: column; top: unset">
+        <div class="address" style="top: unset; margin-top: 100px">
+            <span class="address-title">Наши адреса</span>
+            <span class="address-text">ул. Эклерная, 32</span>
+            <span class="address-text">ул. Шоколадная, 104</span>
+            <span class="address-text" style="margin-top: 40px">тел.: 8 (911) 123-12-12</span>
+        </div>
+        <div class="socials" style=" margin-top: 100px; top: unset">
+            <span class="social-text">Присоединяйтесь к нам в социальных сетях!</span>
+            <a href="https://www.instagram.com" class="fa fa-instagram social-icon" style="font-size: 50px"></a>
+            <a href="https://www.vk.com" class="fa fa-vk social-icon" style="font-size: 50px"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
