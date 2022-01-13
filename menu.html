@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="main.js"></script>
     <link href="./css/main.css" rel="stylesheet"/>
     <link href="./css/bootstrap.css" rel="stylesheet"/>
     <link href="./css/bootstrap-utilities.css" rel="stylesheet"/>
@@ -17,7 +19,9 @@
             <span class="logo1">Ç</span>
             <span class="logo2">Э</span>
         </a>
-        <img src="./img.png" class="eclair">
+        <a href="bin.html" class="eclair-bin">
+            <img src="./img.png" class="eclair">
+        </a>
         <span class="city">Санкт Петербург</span>
     </div>
     <div class="bottom-header">
@@ -36,25 +40,57 @@
                     <img src="./img_9.png" alt="" class="menu-block-image">
                     <span class="menu-block-title" style="margin: -40px 180px 20px 180px ;">Черничный</span>
                     <span class="menu-block-text">Заварное тесто, заварной крем с черничным джемом, гляссаж, цельная черника, декор из белого бельгийского шоколада <br> <br> 80 г.</span>
-                    <span class="menu-block-price">119 р.</span>
+                    <div class="bucket row">
+                        <span class="menu-block-price col">119 р.</span>
+                        <a href="" class="add col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <div class="menu-block">
                     <img src="./img_10.png" alt="" class="menu-block-image" >
                     <span class="menu-block-title" style="margin: -40px 150px 20px 150px ;">Фисташковый</span>
                     <span class="menu-block-text">Заварное тесто, заварной крем с фисташковой пастой, гляссаж, дробленный орех фисташки, декор из белого бельгийского шоколада <br> <br>  80 г.</span>
-                    <span class="menu-block-price">119 р.</span>
+                    <div class="bucket row">
+                        <span class="menu-block-price col">119 р.</span>
+                        <a href="" class="add col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <div class="menu-block">
                     <img src="./img_11.png" alt="" class="menu-block-image">
                     <span class="menu-block-title" style="margin:-40px 180px 20px 180px ;">Крем-брюле</span>
                     <span class="menu-block-text">Заварное тесто, заварной крем со сливками и нежным крем брюле, декор из хрустящих шариков и крем-брюле<br> <br>  80 г.</span>
-                    <span class="menu-block-price">119 р.</span>
+                    <div class="bucket row">
+                        <span class="menu-block-price col">119 р.</span>
+                        <a href="" class="add col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <div class="menu-block">
                     <img src="./img_12.png" alt="" class="menu-block-image" >
                     <span class="menu-block-title" style="margin: -40px 120px 20px 120px ;">Эклер с арахисом</span>
                     <span class="menu-block-text">Шоколадное заварное тесто, заварной крем со сливками и молочным бельгийским шоколадом, карамельная глазурь с арахисом <br> <br> 80 г.</span>
-                    <span class="menu-block-price">119 р.</span>
+                    <div class="bucket row">
+                        <span class="menu-block-price col">119 р.</span>
+                        <a href="" class="add col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,25 +100,57 @@
                     <img src="./img_13.png" alt="" class="menu-block-image" >
                     <span class="menu-block-title" style="margin: -40px 180px 20px 180px ;">Малиновый</span>
                     <span class="menu-block-text">Заварное тесто, заварной крем с малиновым муссом, гляссаж из белого бельгийского шоколада и вареного сгущенного молока<br> <br>  80г.</span>
-                    <span class="menu-block-price">119 р.</span>
+                    <div class="bucket row">
+                        <span class="menu-block-price col">119 р.</span>
+                        <a href="" class="add col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <div class="menu-block">
                     <img src="./img_14.png" alt="" class="menu-block-image">
                     <span class="menu-block-title" style="margin: -40px 160px 20px 160px ;">Карамельный</span>
                     <span class="menu-block-text">Заварное тесто, заварной крем с домашней карамелью, гляссаж из белого бельгийского шоколада и вареного сгущенного молока<br> <br>  80г.</span>
-                    <span class="menu-block-price">119 р.</span>
+                    <div class="bucket row">
+                        <span class="menu-block-price col">119 р.</span>
+                        <a href="" class="add col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <div class="menu-block">
                     <img src="./img_15.png" alt="" class="menu-block-image" >
                     <span class="menu-block-title" style="margin: -40px 160px 20px 160px ;">Шоколадный</span>
                     <span class="menu-block-text">Шоколадное заварное тесто, заварной крем со сливками и темным бельгийским шоколадом, шоколадная глазурь <br> <br> 80г.</span>
-                    <span class="menu-block-price">119 р.</span>
+                    <div class="bucket row">
+                        <span class="menu-block-price col">119 р.</span>
+                        <a href="" class="add col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <div class="menu-block">
                     <img src="./img_16.png" alt="" class="menu-block-image" >
                     <span class="menu-block-title" style="margin:-40px 60px 20px 60px ;">Эклер с грецким орехом</span>
                     <span class="menu-block-text">Заварное тесто, заварной крем со сливками и молочным бельгийским шоколадом, гляссаж,декор из дробленного грецкого ореха <br> <br> 80г.</span>
-                    <span class="menu-block-price">119 р.</span>
+                    <div class="bucket row">
+                        <span class="menu-block-price col">119 р.</span>
+                        <a href="" class="add col-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
