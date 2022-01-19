@@ -541,7 +541,9 @@ body {
 }
 
 .add{
-    width: 35px !important;
+    width: 50px !important;
+    background: transparent;
+    border: none;
 }
 
 .menu-block-price{
@@ -812,7 +814,7 @@ table tr{
 .admin-order-form{
     margin: 25px 110px 25px 110px;
     border-bottom: #0c63e4 solid 1px;
-    height: 550px;
+    min-height: 550px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
