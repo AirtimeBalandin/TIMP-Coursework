@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link href="./css/bootstrap-utilities.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="./js/bootstrap.bundle.js"></script>
     <title>Document</title>
 </head>
 <body style="display: flex; flex-direction: column">
@@ -81,15 +82,17 @@
                 </tbody>
             </table>
             <form action="">
-                <div style="margin: 20px 0px" class="btn-group admin-status-button dropend" role="group">
-                    <button id="btnGroupDrop1" type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 30px;">
+                <div style="margin: 20px 0" class="btn-group admin-status-button" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn"  aria-expanded="false" style="font-size: 30px;">
                         Статус не задан
                     </button>
-                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"></button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <a href="" class=" dropdown-item" style="color: #49ff09">Оплачено</a>
-                            <a href="" class=" dropdown-item" style="color: #FF0000">Не оплачено</a>
-                        </div>
+                    <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="" class=" dropdown-item" style="color: #49ff09">Оплачено</a></li>
+                        <li><a href="" class=" dropdown-item" style="color: #FF0000">Не оплачено</a></li>
+                    </ul>
                 </div>
             </form>
 
@@ -146,6 +149,7 @@
 
         </div>
 
+</div>
 </div>
 </body>
 </html>
